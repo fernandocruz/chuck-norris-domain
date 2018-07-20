@@ -6,7 +6,7 @@ target 'ChuckNorrisDomain' do
   use_frameworks!
 
   # Pods for ChuckNorrisDomain
-    pod 'RxSwift'
+    pod 'RxSwift','~> 4.2.0'
   target 'ChuckNorrisDomainTests' do
     inherit! :search_paths
     # Pods for testing
