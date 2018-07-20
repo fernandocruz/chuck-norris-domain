@@ -12,7 +12,7 @@ s.author = { "Fernando Cruz" => "fernandocruzrj21@gmail.com" }
 s.homepage = "https://github.com/fernandocruz/chuck-norris-domain"
 s.source = { :git => "https://github.com/fernandocruz/chuck-norris-domain.git", :tag => "#{s.version}"}
 s.framework = "UIKit"
-s.dependency 'RxSwift', '~> 4.0'
+s.dependency 'RxSwift'
 s.source_files = "ChuckNorrisDomain/**/*.{swift}"
 
 end
